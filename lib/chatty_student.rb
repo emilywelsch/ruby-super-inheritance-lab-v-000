@@ -2,7 +2,7 @@ class ChattyStudent < Student # child class
 
   def hello
     super
-    @in_class = true
+    puts "This is a long chatty phrase."
   end
 
   def raise_hand
